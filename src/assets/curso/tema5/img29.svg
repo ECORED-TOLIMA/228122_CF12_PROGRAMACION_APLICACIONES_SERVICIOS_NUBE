@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_464063" data-name="Rectángulo 464063" width="44" height="44" transform="translate(0 -0.266)" fill="none" stroke="#19538d" stroke-linecap="round" stroke-width="1.2"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1215174" data-name="Grupo 1215174" transform="translate(0 0)">
+    <circle id="Elipse_13890" data-name="Elipse 13890" cx="48" cy="48" r="48" transform="translate(0 0)" fill="#5a9ad7"/>
+    <path id="Intersección_1" data-name="Intersección 1" d="M0,47.89A47.893,47.893,0,0,1,79.511,11.92L1.1,58.131A48,48,0,0,1,0,47.89Z" transform="translate(0.109 0.108)" fill="#19538d"/>
+    <path id="Trazado_1032916" data-name="Trazado 1032916" d="M40,0A40,40,0,1,1,0,40,40,40,0,0,1,40,0Z" transform="translate(8 8)" fill="#e6f3ff"/>
+    <g id="Grupo_1188343" data-name="Grupo 1188343" transform="translate(22.001 22)">
+      <rect id="Rectángulo_459838" data-name="Rectángulo 459838" width="52" height="52" transform="translate(-0.001 -0.001)" fill="none"/>
+      <g id="Grupo_1215185" data-name="Grupo 1215185" transform="translate(4.63 4.897)">
+        <rect id="Rectángulo_464062" data-name="Rectángulo 464062" width="52.065" height="7.201" transform="translate(0.264 37.079) rotate(-45)" fill="none" stroke="#19538d" stroke-linecap="round" stroke-width="1.2"/>
+        <g id="Grupo_1214054" data-name="Grupo 1214054" transform="translate(-0.631 -0.631)">
+          <g id="Grupo_1214053" data-name="Grupo 1214053" transform="translate(0 0)" clip-path="url(#clip-path)">
+            <path id="Trazado_1281182" data-name="Trazado 1281182" d="M45.6,32.936A10.8,10.8,0,0,0,32.92,45.619l-5.633,5.625A17.962,17.962,0,0,1,51.227,27.3Z" transform="translate(-21.647 -21.665)" fill="none" stroke="#19538d" stroke-linecap="round" stroke-width="1.2"/>
+            <path id="Trazado_1281183" data-name="Trazado 1281183" d="M118.537,131.214a10.808,10.808,0,0,0,12.685-12.685l5.633-5.626a17.961,17.961,0,0,1-23.939,23.938Z" transform="translate(-98.797 -98.786)" fill="none" stroke="#19538d" stroke-linecap="round" stroke-width="1.2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

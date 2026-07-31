@@ -1,1 +1,1 @@
-module.exports = 'Calidad de software: estándares, modelos y metodologías'
+module.exports = 'Diseño y desarrollo de aplicaciones <em>web</em>'

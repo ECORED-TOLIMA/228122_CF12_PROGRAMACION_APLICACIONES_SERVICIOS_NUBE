@@ -17,686 +17,620 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Calidad de <em>software.</em>',
+      tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión sobre los fundamentos, estándares y metodologías, basado en los procesos que garantizan la calidad en el ciclo de vida del desarrollo de <em>software.</em>',
+        '<b> <br>Objetivo:</b> evaluar la comprensión de los conceptos fundamentales relacionados con la arquitectura de la información, el diseño de interfaces, la maquetación <em>web</em> y las tecnologías <em>frontend</em> utilizadas en el desarrollo de aplicaciones <em>web</em>.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto: '¿Cómo se define la calidad del producto?',
+          texto:
+            'La arquitectura de la información en aplicaciones <em>web</em> se encarga principalmente de:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'El grado en que el modo de trabajo es consistente y controlado.',
+              texto: 'Diseñar los colores de la página <em>web</em>.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'El grado en que el <em>software</em>, como artefacto final, cumple requisitos y expectativas.',
+                'Organizar y estructurar la información para facilitar su acceso.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto:
-                'La inversión necesaria para evitar que los defectos nazcan.',
+              texto: 'Crear bases de datos para almacenar información.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'El éxito que depende de los esfuerzos individuales del equipo.',
+              texto: 'Programar las funciones del servidor.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Reconoce que la calidad del producto se centra en lo que el usuario recibe y usa, asegurando que el artefacto final sea apto para su propósito.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
           texto:
-            '¿Cuál es el enfoque principal del aseguramiento de calidad (QA)?',
+            'La organización de la información en un sitio <em>web</em> permite:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Detectivo y correctivo, orientado al producto final.',
+              texto: 'Reducir el tamaño del servidor.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Encontrar defectos en el <em>software</em> antes de que llegue a producción.',
+              texto: 'Eliminar el uso de imágenes.',
               esCorrecta: false,
             },
-            {
-              id: 'c',
-              texto:
-                'Preventivo, orientado al proceso para evitar que los defectos nazcan.',
-              esCorrecta: true,
-            },
+            { id: 'c', texto: 'Evitar el uso de enlaces.', esCorrecta: false },
             {
               id: 'd',
-              texto:
-                'Ejecución de pruebas manuales y automatizadas únicamente.',
-              esCorrecta: false,
+              texto: 'Facilitar la navegación y comprensión del contenido.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            '¡Excelente! Identifica que el QA busca hacer que el proceso sea capaz de producir calidad de manera intrínseca, evitando la creación de fallos.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
           texto:
-            'En el marco de Verificación y Validación (V&V), ¿qué pregunta busca responder la "Verificación"?',
+            'Un sistema de navegación en un sitio <em>web</em> tiene como función principal:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: '¿Se construye el producto correcto?',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Diseñar la base de datos.', esCorrecta: false },
             {
               id: 'b',
               texto:
-                '¿El <em>software</em> entrega valor en el contexto del negocio?',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto:
-                '¿Se construye el producto correctamente según las especificaciones?',
+                'Permitir que el usuario se desplace entre las diferentes secciones del sitio.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Crear animaciones visuales.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '¿El usuario final acepta el producto?',
+              texto: 'Programar el servidor <em>web</em>.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Comprende que la verificación evalúa la consistencia interna y el cumplimiento técnico con lo planeado.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
-          texto:
-            '¿Qué categoría de costos de calidad se refiere a los defectos detectados una vez el <em>software</em> ya está en producción?',
+          texto: 'El diseño de contenido <em>web</em> busca principalmente:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Costos de prevención.',
-              esCorrecta: false,
+              texto:
+                'Organizar y presentar la información de manera clara y comprensible.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Costos de evaluación o detección.',
+              texto: 'Crear únicamente elementos gráficos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Costos de fallos internos.',
+              texto: 'Reducir el uso de texto en las páginas <em>web</em>.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Costos de fallos externos.',
-              esCorrecta: true,
+              texto: 'Programar el <em>backend</em> del sistema.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Reconoce que los fallos externos son los más costosos y afectan directamente la reputación institución.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
           texto:
-            'Dentro del ciclo PHVA, ¿en qué etapa se implementan mejoras para eliminar las causas raíz de los problemas?',
+            'Los formatos de archivo utilizados en la publicación de recursos <em>web</em> permiten:',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Planear.',
-              esCorrecta: false,
+              texto: 'Organizar la información según su tipo y uso.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Hacer.',
+              texto: 'Reemplazar el lenguaje HTML.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Verificar.',
+              texto: 'Eliminar la necesidad de imágenes.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Actuar.',
-              esCorrecta: true,
+              texto: 'Evitar el uso de servidores.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Entiende que actuar implica transformar el aprendizaje en acciones concretas de mejora para el sistema.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
-          texto:
-            '¿Qué indicador mide la efectividad del proceso de pruebas comparando defectos hallados en producción vs. totales?',
+          texto: 'Un <em>wireframe</em> se define como:',
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Densidad de defectos.',
+              texto: 'Un diseño gráfico final de la página <em>web</em>.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Defectos escapados (<em>leakage</em>).',
+              texto:
+                'Un esquema básico que muestra la estructura de una interfaz.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Tasa de reapertura.',
+              texto: 'Un programa para crear páginas <em>web</em>.',
               esCorrecta: false,
             },
-            {
-              id: 'd',
-              texto: 'Cobertura de código.',
-              esCorrecta: false,
-            },
+            { id: 'd', texto: 'Un tipo de base de datos.', esCorrecta: false },
           ],
           mensaje_correcto:
-            '¡Excelente! La información adquiere significado cuando interpreta este indicador para comprender qué tan robusto es tu pipeline de pruebas.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
           texto:
-            '¿Qué nombre recibe la estrategia de gestión que busca adelantar las actividades de prueba y detección a las etapas más tempranas?',
+            'La jerarquía de información en el diseño <em>web</em> permite:',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Mantenimiento evolutivo.',
+              texto: 'Reducir el número de páginas del sitio.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Shift-left</em> (mover a la izquierda).',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Regresión lineal simple.',
+              texto: 'Eliminar enlaces de navegación.',
               esCorrecta: false,
             },
+            { id: 'c', texto: 'Programar el servidor.', esCorrecta: false },
             {
               id: 'd',
-              texto: 'Gestión por indicadores.',
-              esCorrecta: false,
+              texto:
+                'Determinar qué elementos son más importantes dentro de la interfaz.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Reconoce que la información adquiere significado cuando se interpreta en un contexto para comprender y actuar, reduciendo costos al detectar fallos lo antes posible.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
-          texto:
-            'En la norma ISO/IEC 25010, ¿qué subcaracterística pertenece a la adecuación funcional?',
+          texto: 'Las retículas en diseño <em>web</em> se utilizan para:',
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Comportamiento temporal.',
-              esCorrecta: false,
+              texto:
+                'Organizar y alinear los elementos visuales en la interfaz.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Autenticidad.',
+              texto: 'Crear animaciones en el sitio <em>web</em>.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Corrección funcional.',
-              esCorrecta: true,
+              texto: 'Programar el <em>backend</em> del sistema.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modularidad',
+              texto: 'Reducir el tamaño de las imágenes.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Correcto! La corrección funcional asegura que el software entregue resultados precisos según lo solicitado.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
-          texto:
-            '¿Qué nivel de capacidad en el modelo ISO/IEC 15504 (SPICE) indica que el proceso está definido y estandarizado?',
+          texto: 'El diseño intuitivo de interfaces busca principalmente:',
           imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Nivel 1 – Ejecutado.',
+              texto: 'Que el usuario aprenda programación.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Nivel 2 – Gestionado.',
+              texto: 'Reducir el contenido del sitio.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Nivel 3 – Establecido.',
+              texto: 'Que la navegación sea sencilla y fácil de comprender.',
               esCorrecta: true,
             },
-            {
-              id: 'd',
-              texto: 'Nivel 5 – Optimizado.',
-              esCorrecta: false,
-            },
+            { id: 'd', texto: 'Eliminar botones y menús.', esCorrecta: false },
           ],
           mensaje_correcto:
-            '¡Muy bien! Reconoce que alcanzar un proceso establecido significa que la organización ha formalizado su modo de operar.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
-          texto: '¿Cuál es la premisa fundamental del modelo CMMI?',
+          texto: 'Un mockup se caracteriza por:',
           imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Las pruebas deben hacerse solo al final del ciclo.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'La calidad del producto es consecuencia directa de la calidad del proceso.',
+              texto: 'Ser un modelo visual detallado de la interfaz.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Ser únicamente un esquema textual.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto:
-                'El éxito de los proyectos depende de los "héroes" individuales.',
+              texto: 'Ser un lenguaje de programación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'CMMI es una herramienta técnica de ejecución de pruebas.',
+              texto: 'Ser un tipo de servidor <em>web</em>.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Excelente! Comprende que, para obtener resultados de calidad de forma repetible, se debe fortalecer el sistema de trabajo.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
-          texto:
-            'En CMMI, ¿qué caracteriza al Nivel 2 de Madurez (Gestionado)?',
+          texto: 'El prototipado de interfaces permite:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Los procesos son <em>ad hoc</em> o caóticos.',
+              texto: 'Reemplazar el diseño visual.',
               esCorrecta: false,
             },
-            {
-              id: 'b',
-              texto: 'Existe mejora continua sistemática e innovación.',
-              esCorrecta: false,
-            },
+            { id: 'b', texto: 'Crear bases de datos.', esCorrecta: false },
             {
               id: 'c',
-              texto:
-                'Los proyectos aplican procesos básicos y existen prácticas repetibles.',
-              esCorrecta: true,
+              texto: 'Eliminar el diseño de la interfaz.',
+              esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Se utiliza el control estadístico de procesos en toda la organización.',
-              esCorrecta: false,
+                'Probar el funcionamiento de la interfaz antes de desarrollarla completamente.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! En este nivel, la gestión básica permite que el éxito no dependa únicamente de esfuerzos individuales aislado.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
-          texto:
-            '¿Qué metodología de desarrollo se basa en ciclos sucesivos que integran el análisis de riesgos como eje central?',
+          texto: 'Las plataformas de diseño de interfaces permiten:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Modelo en cascada.',
+              texto: 'Programar servidores <em>web</em>.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Modelo en V.',
+              texto: 'Crear bases de datos relacionales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Modelo espiral.',
+              texto: 'Crear y visualizar prototipos de interfaces digitales.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Kanban.',
+              texto: 'Reemplazar el lenguaje HTML.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Correcto! El modelo espiral utiliza el análisis de riesgos para guiar cada iteración del desarrollo.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
-          texto:
-            'Según el comparativo de metodologías, ¿en qué momento se realizan las pruebas en Scrum?',
+          texto: 'La maquetación <em>web</em> consiste en:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Al final del ciclo de vida.',
-              esCorrecta: false,
+              texto:
+                'Organizar visualmente los elementos de una página <em>web</em> mediante código.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'En cada <em>sprint.</em>',
-              esCorrecta: true,
+              texto:
+                'Crear bases de datos para la aplicación de una organización.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'De forma permanente y automatizada.',
-              esCorrecta: true,
+              texto: 'Diseñar únicamente logotipos.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Únicamente durante el diseño.',
+              texto: 'Configurar servidores <em>web</em>.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! En Scrum, la calidad se integra en cada ciclo corto para producir un incremento funcional probado.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
-          texto:
-            '¿Cuál es el objetivo principal del Personal Software Process (PSP)?',
+          texto: 'El lenguaje HTML se utiliza principalmente para:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Certificar a la empresa en niveles de madurez.',
+              texto: 'Programar la base de datos para los clientes.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Mejorar la calidad y productividad individual del ingeniero de <em>software.</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Eliminar la necesidad de tener un equipo de pruebas.',
+                'Diseñar animaciones complejas dentro de una organización.',
               esCorrecta: false,
             },
+            { id: 'c', texto: 'Administrar servidores.', esCorrecta: false },
             {
               id: 'd',
-              texto: 'Definir la estrategia de mercadeo del <em>software.</em>',
-              esCorrecta: false,
+              texto:
+                'Definir la estructura del contenido de una página <em>web</em>.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            '¡Excelente! Reconoce que la disciplina personal es el punto de partida para la calidad colectiva y organizacional.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
-          texto:
-            '¿En qué nivel de PSP se introduce la estimación de tamaño y esfuerzo basada en datos históricos?',
+          texto: 'Las hojas de estilo CSS permiten:',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'PSP0.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'PSP1 – Planificación personal.',
+              texto:
+                'Controlar la apariencia visual de una página <em>web</em>.',
               esCorrecta: true,
             },
             {
-              id: 'c',
-              texto: 'PSP2.',
+              id: 'b',
+              texto: 'Crear bases de datos de los resultados de las encuestas.',
               esCorrecta: false,
             },
-            {
-              id: 'd',
-              texto: 'PSP3.',
-              esCorrecta: false,
-            },
+            { id: 'c', texto: 'Reemplazar HTML.', esCorrecta: false },
+            { id: 'd', texto: 'Programar el servidor.', esCorrecta: false },
           ],
           mensaje_correcto:
-            '¡Muy bien! En el nivel PSP1 se sustituye la intuición por una base cuantitativa para mejorar la precisión.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 16,
           texto:
-            '¿Cuál es el rol en TSP encargado de supervisar las métricas de calidad?',
+            'El <em>frontend</em> en una aplicación <em>web</em> corresponde a:',
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Team leader.</em>',
+              texto: 'La base de datos del sistema.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Development manager.</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Quality manager.</em>',
+              texto: 'La parte visual con la que interactúa el usuario.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'El servidor que procesa datos.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Support manager.</em>',
+              texto: 'El sistema operativo del computador.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Este rol es vital para asegurar que el equipo trabaje bajo estándares medibles y controlados.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 17,
-          texto:
-            'El método PROBE utilizado para estimaciones en PSP se basa en:',
+          texto: 'Una de las funciones principales del <em>frontend</em> es:',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'La intuición del desarrollador senior.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Gestionar bases de datos.', esCorrecta: false },
             {
               id: 'b',
-              texto: 'El análisis estadístico de datos históricos personales.',
+              texto:
+                'Presentar la información y gestionar la interacción del usuario.',
               esCorrecta: true,
             },
-            {
-              id: 'c',
-              texto: 'El número de botones de la interfaz de usuario.',
-              esCorrecta: false,
-            },
+            { id: 'c', texto: 'Crear sistemas operativos.', esCorrecta: false },
             {
               id: 'd',
-              texto: 'El presupuesto disponible del cliente.',
+              texto: 'Programar el hardware del servidor.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Excelente! La información adquiere significado cuando utilizas datos pasados para predecir con exactitud el esfuerzo futuro.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 18,
-          texto:
-            'En el contexto de documentación técnica, ¿qué define el plan de aseguramiento de calidad (SQA Plan)?',
+          texto: 'En programación, un tipo de dato define:',
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'El manual de instalación para el usuario final.',
+              texto: 'El tamaño del servidor <em>web</em>.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Cómo se controlará la calidad del código e integrarán pruebas en el ciclo de vida.',
-              esCorrecta: true,
+              texto: 'La velocidad de conexión a Internet.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'El registro de tiempos de entrada y salida de los empleados.',
+              texto: 'El diseño gráfico del sitio.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'La lista de precios de las herramientas SonarQube y Jenkins.',
-              esCorrecta: false,
+                'La naturaleza de la información que se almacena y manipula.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! El SQA Plan no es burocracia, sino una guía técnica que impacta directamente el pipeline de desarrollo.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 19,
-          texto:
-            '¿Qué elemento es esencial en un reporte de defectos para evitar pérdida de tiempo y confusiones? ',
+          texto: 'En JavaScript, el tipo de dato “String” se utiliza para:',
           imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'El nombre del gerente del proyecto.',
+              texto: 'Representar valores lógicos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Pasos exactos de reproducción y versión del sistema.',
+              texto: 'Representar números decimales.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'El costo estimado del bug en dólares.',
+              texto: 'Representar secuencias de texto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Una lista de sugerencias de diseño estético.',
+              texto: 'Representar listas de datos.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Correcto! Un reporte preciso permite la reproducibilidad del fallo, agilizando su corrección.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 20,
           texto:
-            '¿Qué herramienta técnica permite conectar una historia de usuario con su <em>commit, build</em> y caso de prueba?',
+            'En el desarrollo <em>frontend</em>, una librería se utiliza para:',
           imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Análisis estático.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Densidad de defectos.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Trazabilidad.',
+              texto: 'Reutilizar código y facilitar tareas de programación.',
               esCorrecta: true,
             },
             {
-              id: 'd',
-              texto: 'Regresión lineal simple.',
+              id: 'b',
+              texto: 'Reemplazar completamente los lenguajes de programación.',
               esCorrecta: false,
             },
+            { id: 'c', texto: 'Crear sistemas operativos.', esCorrecta: false },
+            { id: 'd', texto: 'Diseñar hardware.', esCorrecta: false },
           ],
           mensaje_correcto:
-            '¡Excelente! Comprende que la trazabilidad es el hilo conductor que asegura que cada requisito ha sido correctamente validado y liberado.',
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos fundamentales sobre arquitectura de la información, diseño de interfaces, uso de HTML y CSS, y tecnologías <em>frontend</em> en el desarrollo de aplicaciones <em>web</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },

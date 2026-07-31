@@ -7,24 +7,21 @@
         span
           i.fas.fa-info
       h1 Introducción
-
+    p.mb-4(data-aos="fade-down") La creación de aplicaciones <em>web</em> modernas requiere integrar principios de organización de la información, diseño visual y desarrollo tecnológico. Estos elementos permiten estructurar contenidos de manera clara, facilitar la navegación de los usuarios y construir interfaces funcionales que respondan a diferentes necesidades digitales.
     .row.justify-content-center.mb-4
-      .col-lg-4.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col.col-lg-3.col-8.col-md-6.order-lg-1.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/introduccion/img-01.png', alt='')
-      .col-lg-8       
-        p.mb-4(data-aos="fade-left") En un entorno donde las organizaciones dependen cada vez más de soluciones tecnológicas para operar y competir, la calidad del #[i software] se consolida como un factor estratégico. Los errores en los sistemas pueden generar pérdidas económicas, afectar la reputación institucional y comprometer la seguridad de la información. Por ello, la gestión adecuada de las pruebas y el aseguramiento de la calidad resultan componentes esenciales a lo largo del ciclo de vida del desarrollo de #[i software].
-        .cajon.cajon.C01.color-primario.p-4.mb-3.p-3
-          p.mb-0(data-aos="fade-down") Este componente proporciona los fundamentos conceptuales, normativos y prácticos necesarios para planificar, ejecutar, controlar y mejorar los procesos de verificación y validación, en coherencia con estándares internacionales y buenas prácticas de la industria. Mediante una modalidad virtual y un enfoque aplicado, se desarrollan competencias orientadas a garantizar productos de #[i software] confiables, eficientes y alineados con los requisitos establecidos, contribuyendo a la mejora continua de los procesos tecnológicos en las organizaciones.
-
-    p.mb-4 Partiendo de lo anterior, se invita a que acceda al siguiente video, el cual relaciona la temática a tratar durante este componente formativo:
-
+          img(src='@/assets/curso/intro/img01.svg', alt='Imagen decorativa')
+      .col.col-lg-7.col-12.order-lg-2.order-2
+        .cajon.cajon.C01.color-primario.px-4.py-3.mb-4
+          p.mb-0(data-aos="fade-down") En el desarrollo de aplicaciones <em>web</em>, el diseño de la información cumple un papel fundamental, ya que permite definir cómo se organizan los contenidos, cómo se presentan y de qué forma interactúan los usuarios con el sistema. Para ello se emplean herramientas como <em>wireframe</em>s, retículas y <em>mockups</em>, que ayudan a planificar la estructura visual y la experiencia de uso antes de iniciar la construcción de la aplicación.
+        p.mb-0(data-aos="fade-down") De igual manera, la maquetación <em>web</em> mediante tecnologías como HTML y CSS permite transformar los diseños en interfaces funcionales accesibles desde diferentes dispositivos. Estas tecnologías hacen posible estructurar los contenidos, aplicar estilos visuales y mantener coherencia gráfica a través de guías de estilo.
+    p.mb-4(data-aos="fade-down") Finalmente, el uso de tecnologías <em>frontend</em> amplía las capacidades de las aplicaciones <em>web</em> al permitir la incorporación de funciones dinámicas, el consumo de servicios y el uso de librerías que facilitan el desarrollo. De esta forma, el diseño y desarrollo de aplicaciones <em>web</em> integra aspectos conceptuales, visuales y tecnológicos que contribuyen a la creación de experiencias digitales eficientes y centradas en el usuario.
     .row.justify-content-center.align-items-center           
-      .col-lg-12
+      .col.col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/O78szhL9TPs?si=g0VDicrbQLOKNVqq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/O78szhL9TPs?si=JjQ8ntNSIXJou4g-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 
 <script>
