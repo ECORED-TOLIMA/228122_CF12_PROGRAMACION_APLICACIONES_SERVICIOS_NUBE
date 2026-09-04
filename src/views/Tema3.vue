@@ -22,7 +22,7 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.1 Tipos de interfaces <em>web</em>
     figure.mb-4
-      img(src='@/assets/curso/tema3/img02.png', alt='Imagen decorativa')
+      img(src='@/assets/curso/tema3/img02.png', alt='')
     p(data-aos="fade-down") Las interfaces <em>web</em> pueden clasificarse según su forma de funcionamiento, el nivel de interacción que ofrecen al usuario y la manera en que presentan la información dentro de un sitio o aplicación. Comprender estos tipos permite seleccionar el enfoque de diseño más adecuado según las necesidades del proyecto y el tipo de experiencia que se desea ofrecer al usuario.
     p.mb-4(data-aos="fade-down") A continuación, se presentan algunos de los tipos de interfaces <em>web</em> más utilizados en el desarrollo de sitios y aplicaciones digitales.
     .row.justify-content-center.mb-0
@@ -66,7 +66,7 @@
             .row.justify-content-center
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C05.p-0.h-100
-                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img07.svg' alt="Imagen decorativa")
+                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img07.svg' alt="")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
                 .cajon.cajon.C05.p-3.h-100.d-flex.align-items-center
                   h5.mb-0 Páginas institucionales informativas.
@@ -74,7 +74,7 @@
             .row.justify-content-center
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C05.p-0.h-100
-                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img08.svg' alt="Imagen decorativa")
+                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img08.svg' alt="")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
                 .cajon.cajon.C05.p-3.h-100.d-flex.align-items-center
                   h5.mb-0 Portafolios personales.
@@ -82,7 +82,7 @@
             .row.justify-content-center
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C05.p-0.h-100
-                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img09.svg' alt="Imagen decorativa")
+                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img09.svg' alt="")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
                 .cajon.cajon.C05.p-3.h-100.d-flex.align-items-center
                   h5.mb-0 Sitios <em>web</em> básicos o <em>landing pages</em>.
@@ -97,7 +97,7 @@
               li.mb-2
                 .lista-ol--cuadro__vineta
                   span.text-bold 1
-                | Obtener un servicio de alojamiento <em>web</em> (hosting) y registrar un dominio para el sitio.
+                p.mb-0 Obtener un servicio de alojamiento <em>web</em> (hosting) y registrar un dominio para el sitio.
               li.mb-2
                 .lista-ol--cuadro__vineta
                   span.text-bold 2
@@ -112,7 +112,7 @@
                 | Publicar los archivos del sitio en el servidor para que puedan ser accesibles desde Internet.
           .col-lg-3.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
             figure.mb-0
-              img(src='@/assets/curso/tema3/img10.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema3/img10.svg', alt='')
     .row.justify-content-center.mb-0
       .col.col-12
         .row.align-items-center.mb-4(data-aos="flip-down")
@@ -154,7 +154,7 @@
             .row.justify-content-center
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C05.p-0.h-100
-                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img15.svg' alt="Imagen decorativa")
+                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img15.svg' alt="")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
                 .cajon.cajon.C05.p-3.h-100.d-flex.align-items-center
                   h5.mb-0 Plataformas educativas.
@@ -162,7 +162,7 @@
             .row.justify-content-center
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C05.p-0.h-100
-                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img16.svg' alt="Imagen decorativa")
+                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img16.svg' alt="")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
                 .cajon.cajon.C05.p-3.h-100.d-flex.align-items-center
                   h5.mb-0 Tiendas en línea.
@@ -170,7 +170,7 @@
             .row.justify-content-center
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C05.p-0.h-100
-                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img17.svg' alt="Imagen decorativa")
+                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img17.svg' alt="")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
                 .cajon.cajon.C05.p-3.h-100.d-flex.align-items-center
                   h5.mb-0 Sistemas de gestión empresarial.
@@ -178,7 +178,7 @@
             .row.justify-content-center
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C05.p-0.h-100
-                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img18.svg' alt="Imagen decorativa")
+                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img18.svg' alt="")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
                 .cajon.cajon.C05.p-3.h-100.d-flex.align-items-center
                   h5.mb-0 Redes sociales y aplicaciones <em>web</em>.
@@ -255,7 +255,7 @@
               li.mb-2
                 .lista-ol--cuadro__vineta
                   span.text-bold 2
-                | Utilizar CSS con técnicas de diseño flexible, como Flexbox, CSS <em>Grid</em> y media queries.
+                p.mb-0 Utilizar CSS con técnicas de diseño flexible, como Flexbox, CSS Grid y media queries.
               li.mb-2
                 .lista-ol--cuadro__vineta
                   span.text-bold 3
@@ -305,7 +305,7 @@
             .row.justify-content-center
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C05.p-0.h-100
-                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img27.svg' alt="Imagen decorativa")
+                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img27.svg' alt="")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
                 .cajon.cajon.C05.p-3.h-100.d-flex.align-items-center
                   h5.mb-0 Sistemas de gestión empresarial.
@@ -313,7 +313,7 @@
             .row.justify-content-center
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C05.p-0.h-100
-                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img28.svg' alt="Imagen decorativa")
+                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img28.svg' alt="")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
                 .cajon.cajon.C05.p-3.h-100.d-flex.align-items-center
                   h5.mb-0 Aplicaciones colaborativas en línea.
@@ -321,7 +321,7 @@
             .row.justify-content-center
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C05.p-0.h-100
-                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img29.svg' alt="Imagen decorativa")
+                  img.w-100.h-100.my-auto(src='@/assets/curso/tema3/img29.svg' alt="")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
                 .cajon.cajon.C05.p-3.h-100.d-flex.align-items-center
                   h5.mb-0 Plataformas de productividad y almacenamiento en la nube.
@@ -344,14 +344,14 @@
               li.mb-2
                 .lista-ol--cuadro__vineta
                   span.text-bold 3
-                | Implementar la lógica del sistema utilizando tecnologías <em>frontend</em> y su integración con el <em>backend</em>.
+                p.mb-0 Implementar la lógica del sistema utilizando tecnologías <em>frontend</em> y su integración con el <em>backend</em>.
               li.mb-2
                 .lista-ol--cuadro__vineta
                   span.text-bold 4
                 | Realizar pruebas de funcionamiento, rendimiento y experiencia de usuario antes de su publicación.
           .col-lg-2.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
             figure.mb-0
-              img(src='@/assets/curso/tema3/img30.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema3/img30.svg', alt='')
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.2 Diseño intuitivo y usable de interfaces
@@ -370,38 +370,38 @@
           .row.align-items-center.BG02(data-aos="fade-down")
             .col-lg-4.d-none.d-lg-block.py-0.px-3
               figure(data-aos="zoom-in")
-                img(src="@/assets/curso/tema3/img32.png", alt="Imagen decorativa")
+                img(src="@/assets/curso/tema3/img32.png", alt="")
             .col-lg-8.p-5.py-4
               SlyderF.custom.color-acento-botones.px-4.py-0(columnas="col-lg-4 col-xl-4")
                 .tarjeta.tarjeta--slyder.px-3.py-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema3/img33.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema3/img33.svg", alt="").img100.m-auto
                   p Presentación simple y clara de los elementos de la interfaz.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema3/img34.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema3/img34.svg", alt="").img100.m-auto
                   p Uso de patrones de interacción conocidos.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema3/img35.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema3/img35.svg", alt="").img100.m-auto
                   p Claridad en los mensajes, botones y acciones.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema3/img36.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema3/img36.svg", alt="").img100.m-auto
                   p Reducción de la carga cognitiva del usuario.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema3/img37.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema3/img37.svg", alt="").img100.m-auto
                   p Coherencia en la organización y funcionamiento de los elementos.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-1.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema3/img38.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img38.svg', alt='')
       .col-lg-9.col-12
         p.mb-0 Por otra parte, la usabilidad se enfoca en evaluar qué tan fácil, eficiente y satisfactorio resulta para un usuario interactuar con un sistema. No se trata únicamente de cómo debería funcionar una interfaz en teoría, sino de cómo funciona realmente cuando las personas la utilizan.
     p(data-aos="fade-down") La <b>usabilidad</b> busca que los usuarios puedan realizar sus tareas con el menor esfuerzo posible, reduciendo errores y mejorando la eficiencia en la interacción.
@@ -413,27 +413,27 @@
             .row.justify-content-center.mb-3
               .col-lg-7.col-4
                 figure(data-aos="fade-up")
-                  img(src='@/assets/curso/tema3/img39.svg', alt='Imagen decorativa')(style="width: 85%")
+                  img(src='@/assets/curso/tema3/img39.svg', alt='')(style="width: 85%")
             h4.text-center Eficacia
             p.mb-4(data-aos="fade-down") Que se refiere a la capacidad del usuario para completar correctamente las tareas propuestas.        
           .col-xl.col-lg-6.tarjeta.tarjeta--C06.p-5
             .row.justify-content-center.mb-3
               .col-lg-7.col-4
                 figure(data-aos="fade-up")
-                  img(src='@/assets/curso/tema3/img40.svg', alt='Imagen decorativa')(style="width: 85%")
+                  img(src='@/assets/curso/tema3/img40.svg', alt='')(style="width: 85%")
             h4.text-center Eficiencia
             p.mb-4(data-aos="fade-down") Relacionada con el tiempo y el esfuerzo que el usuario necesita para lograr sus objetivos.
           .col-xl.col-lg-6.tarjeta.tarjeta--C05.p-5
             .row.justify-content-center.mb-3
               .col-lg-7.col-4
                 figure(data-aos="fade-up")
-                  img(src='@/assets/curso/tema3/img41.svg', alt='Imagen decorativa')(style="width: 85%")
+                  img(src='@/assets/curso/tema3/img41.svg', alt='')(style="width: 85%")
             h4.text-center Satisfacción
             p.mb-4(data-aos="fade-down") Que corresponde a la percepción positiva del usuario durante la interacción con el sistema.
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema3/img42.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img42.jpg', alt='')
       .col.col-lg-6.col-12.order-lg-1.order-2
         p.mb-2(data-aos="fade-down") El diseño intuitivo y usable se aplica en numerosos contextos digitales. En plataformas educativas, por ejemplo, permite que los aprendices se concentren en el aprendizaje sin dificultades para navegar por los contenidos. En entornos empresariales, contribuye a mejorar la productividad y disminuir errores en los procesos.
         .cajon.cajon.C02.color-secundario.px-4.py-3.mb-0
@@ -445,7 +445,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/img43.jpg", alt="Imagen decorativa")
+              img(src="@/assets/curso/tema3/img43.jpg", alt="")
           .crd_hover_txt--body
             h5.t1.mb-3 Simplicidad
             h5.t2.mb-2 Simplicidad
@@ -455,7 +455,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/img44.jpg", alt="Imagen decorativa")
+              img(src="@/assets/curso/tema3/img44.jpg", alt="")
           .crd_hover_txt--body
             h5.t1.mb-3 Consistencia
             h5.t2.mb-2 Consistencia
@@ -465,7 +465,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/img45.jpg", alt="Imagen decorativa")
+              img(src="@/assets/curso/tema3/img45.jpg", alt="")
           .crd_hover_txt--body
             h5.t1.mb-3 Retroalimentación
             h5.t2.mb-2 Retroalimentación
@@ -476,7 +476,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/img46.jpg", alt="Imagen decorativa")
+              img(src="@/assets/curso/tema3/img46.jpg", alt="")
           .crd_hover_txt--body
             h5.t1.mb-3 Visibilidad
             h5.t2.mb-2 Visibilidad
@@ -486,7 +486,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/img47.jpg", alt="Imagen decorativa")
+              img(src="@/assets/curso/tema3/img47.jpg", alt="")
           .crd_hover_txt--body
             h5.t1.mb-3 Control del usuario
             h5.t2.mb-2 Control del usuario
@@ -565,7 +565,7 @@
               p.mb-0 Finalmente, el <em>Mockup</em> se revisa con el equipo de diseño o desarrollo para realizar ajustes antes de avanzar hacia el prototipado o la programación.
       .col-lg-4.col-sm-4.col-5.order-lg-1.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema3/img53.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img53.png', alt='')
     .row.justify-content-center.mb-0
       .col.col-12
         .row.align-items-center.mb-4(data-aos="flip-down")
@@ -607,19 +607,19 @@
       .col-lg-4.col-12.mb-4.d-flex
         .card-custom.w-100.d-flex.flex-column
           figure.px-0.mb-0
-            img(src='@/assets/curso/tema3/img58.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/tema3/img58.svg', alt='')
           .bg-c1.flex-grow-1.d-flex.flex-column.align-items-start
             p.mb-0 Prototipos de baja fidelidad, que representan ideas iniciales mediante esquemas simples.
       .col-lg-4.col-12.mb-4.d-flex
         .card-custom.w-100.d-flex.flex-column
           figure.px-0.mb-0
-            img(src='@/assets/curso/tema3/img59.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/tema3/img59.svg', alt='')
           .bg-c1.flex-grow-1.d-flex.flex-column.align-items-start
             p.mb-0 Prototipos de media fidelidad, que incluyen mayor organización de contenidos y algunos elementos visuales.
       .col-lg-4.col-12.mb-4.d-flex
         .card-custom.w-100.d-flex.flex-column
           figure.px-0.mb-0
-            img(src='@/assets/curso/tema3/img60.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/tema3/img60.svg', alt='')
           .bg-c1.flex-grow-1.d-flex.flex-column.align-items-start
             p.mb-0 Prototipos de alta fidelidad, que simulan con gran precisión el funcionamiento y la apariencia final del sistema.
     .tarjeta.tarjeta--C11.p-4.py-2.mb-3.d-inline-block.mb-4
@@ -644,7 +644,7 @@
               p.mb-0 Con base en los resultados de las pruebas, se realizan modificaciones antes de iniciar el desarrollo definitivo del sistema.
       .col-lg-4.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema3/img61.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img61.png', alt='')
     .row.BG01.justify-content-center.align-items-stretch.mb-4.px-4.py-4.mb-0
       .row.justify-content-center.align-items-center.mb-4
         .col.col-lg-6.col-12.mb-lg-0.mb-3.order-lg-2.order-2
@@ -669,7 +669,7 @@
             p.mb-0(data-aos="fade-down") 
         .col.col-lg-4.col-8.order-lg-1.order-1
           figure
-            img(src='@/assets/curso/tema3/img62.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/tema3/img62.svg', alt='')
     .row.justify-content-center.mb-0
       .col.col-lg-10.col-12
         .tarjeta.tarjeta--C14.p-4
@@ -710,7 +710,7 @@
                 td(data-aos="fade-down") Diseño y validación de experiencias de usuario.
               tr
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") Sketch
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") <em>Software</em>de diseño vectorial.
+                td(data-aos="fade-down")(style="background-color: #F0F8FF") <em>Software</em> de diseño vectorial.
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") Orientado al diseño de interfaces digitales, especialmente para aplicaciones <em>web</em> y móviles.
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") Creación de <em>layouts</em>, componentes y prototipos.
               tr

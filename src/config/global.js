@@ -211,7 +211,7 @@ export default {
     {
       termino: 'Aplicación <em>web</em>',
       significado:
-        '<em>Software</em>que se ejecuta en un navegador y permite a los usuarios interactuar con servicios o contenidos a través de Internet.',
+        '<em>software</em> que se ejecuta en un navegador y permite a los usuarios interactuar con servicios o contenidos a través de Internet.',
     },
     {
       termino: 'Arquitectura de la información',
@@ -241,7 +241,7 @@ export default {
     {
       termino: 'HTML (HyperText Markup Language)',
       significado:
-        'lenguaje de marcado utilizado para estructura y organizar el contenido de las páginas <em>web</em>.',
+        'lenguaje de marcado utilizado para estructurar y organizar el contenido de las páginas <em>web</em>.',
     },
     {
       termino: 'Interfaz de usuario (UI)',
@@ -256,7 +256,7 @@ export default {
     {
       termino: 'Librería',
       significado:
-        'conjunto de funciones o componentes reutilizables que facilitan la implementación de tareas específicas en el desarrollo de software.',
+        'conjunto de funciones o componentes reutilizables que facilitan la implementación de tareas específicas en el desarrollo de <em>software</em>.',
     },
     {
       termino: 'Prototipo',

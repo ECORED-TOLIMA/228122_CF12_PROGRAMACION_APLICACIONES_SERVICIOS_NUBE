@@ -16,7 +16,7 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-auto.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema2/img02.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema2/img02.svg', alt='')
       .col-lg-8.col-12
         .cajon.cajon.C05.px-4.py-3.mb-0
           p.mb-0 En este contexto, el diseño de información se apoya en herramientas y técnicas que permiten planificar la estructura de las páginas, establecer jerarquías de contenido y definir la disposición de los elementos en la interfaz. De esta manera, se busca mejorar la comprensión del contenido, optimizar la experiencia del usuario y garantizar que la información cumpla su propósito dentro del sistema digital.
@@ -137,7 +137,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema2/img09.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema2/img09.svg', alt='')
       .col.col-lg-8.col-12.order-lg-1.order-2
         .cajon.cajon.C01.color-primario.px-4.py-4.mb-4
           p.mb-0(data-aos="fade-down") Cada tipo de archivo cumple una función específica dentro del funcionamiento de una página <em>web</em>. La correcta selección y uso de estos formatos influye directamente en el rendimiento del sitio, la experiencia del usuario, la accesibilidad, la seguridad y el posicionamiento en los motores de búsqueda (SEO). Por esta razón, los desarrolladores <em>web</em> deben conocer las características y aplicaciones de los principales formatos utilizados en la publicación de recursos digitales.
@@ -247,8 +247,8 @@
                 td(data-aos="fade-down") Gráficos vectoriales.
                 td(data-aos="fade-down") Escalables sin pérdida de calidad.
               tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") <em>web</em>P
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") .<em>web</em>p
+                td(data-aos="fade-down")(style="background-color: #F0F8FF") WebP
+                td(data-aos="fade-down")(style="background-color: #F0F8FF") .<em>webp</em>
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") Imágenes optimizadas.
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") Menor tamaño con buena calidad.
         .titulo-sexto.color-acento-contenido
@@ -290,7 +290,7 @@
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") Alta compatibilidad y compresión.
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") Estándar más utilizado en la <em>web</em>.
               tr
-                td(data-aos="fade-down") <em>web</em>M
+                td(data-aos="fade-down") WebM
                 td(data-aos="fade-down") Formato abierto optimizado para <em>web</em>.
                 td(data-aos="fade-down") Reproducción en navegadores.
               tr
@@ -304,38 +304,38 @@
           .row.align-items-center.BG02(data-aos="fade-down")
             .col-lg-4.d-none.d-lg-block.py-0.px-3
               figure(data-aos="zoom-in")
-                img(src="@/assets/curso/tema2/img10.png", alt="Imagen decorativa")
+                img(src="@/assets/curso/tema2/img10.png", alt="")
             .col-lg-8.p-5.py-4
               SlyderF.custom.color-acento-botones.px-4.py-0(columnas="col-lg-6 col-xl-6")
                 .tarjeta.tarjeta--slyder.px-3.py-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema2/img11.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema2/img11.svg", alt="").img100.m-auto
                   p Comprimir imágenes y videos para reducir el tiempo de carga.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema2/img12.svg", alt="Imagen decorativa").img100.m-auto
-                  p Utilizar formatos modernos y optimizados como <em>web</em>P
+                      img(src="@/assets/curso/tema2/img12.svg", alt="").img100.m-auto
+                  p Utilizar formatos modernos y optimizados como WebP
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema2/img13.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema2/img13.svg", alt="").img100.m-auto
                   p Minimizar archivos CSS y JavaScript.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema2/img14.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema2/img14.svg", alt="").img100.m-auto
                   p Implementar técnicas de carga diferida (<em>lazy loading</em>).
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema2/img15.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema2/img15.svg", alt="").img100.m-auto
                   p Verificar la compatibilidad entre diferentes navegadores.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema2/img16.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema2/img16.svg", alt="").img100.m-auto
                   p Optimizar los recursos para mejorar el posicionamiento SEO.
     p.mb-0(data-aos="fade-down") En un entorno digital cada vez más exigente, conocer y aplicar correctamente los formatos y tipos de archivos utilizados en la <em>web</em> permite desarrollar sitios más rápidos, eficientes y accesibles, contribuyendo a mejorar la experiencia de los usuarios y el desempeño general del sistema.
     separador
@@ -345,7 +345,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema2/img17.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema2/img17.jpg', alt='')
       .col.col-lg-6.col-12.order-lg-2.order-2
         p.mb-3(data-aos="fade-down") Para lograrlo, se utilizan diferentes herramientas de planificación que ayudan a definir cómo se distribuirá la información dentro de una interfaz digital. Entre las más utilizadas se encuentran el <em>wireframe</em>, la jerarquía de la información y las retículas, las cuales permiten transformar los requerimientos del sistema en estructuras visuales que orientan tanto el diseño como el desarrollo.
         .cajon.cajon.C01.color-primario.px-4.py-4.mb-0
@@ -421,7 +421,7 @@
             p.mb-0(data-aos="fade-down") 
         .col.col-lg-4.col-8
           figure
-            img(src='@/assets/curso/tema2/img25.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/tema2/img25.svg', alt='')
     p.mb-4(data-aos="fade-down") Por su parte, las retículas o <em>Grid systems</em> son estructuras invisibles que permiten organizar el contenido dentro de una interfaz mediante la división del espacio en filas y columnas. Estas estructuras facilitan la alineación y distribución de los elementos, contribuyendo a crear diseños ordenados y coherentes.
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
@@ -456,7 +456,7 @@
               p.mb-0 Permitir una implementación más estructurada en el desarrollo <em>web</em>.
       .col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/tema2/img28.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema2/img28.svg', alt='')
     p.mb-0(data-aos="fade-down") En conjunto, el <em>wireframe</em>, la jerarquía de la información y las retículas se complementan dentro del proceso de diseño. Mientras el <em>wireframe</em> define la estructura inicial de la interfaz, la jerarquía organiza la importancia del contenido y las retículas permiten distribuir los elementos de manera ordenada dentro del espacio disponible.
 </template>
 

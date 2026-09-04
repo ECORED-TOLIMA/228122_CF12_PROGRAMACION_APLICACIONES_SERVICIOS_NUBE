@@ -14,11 +14,11 @@
           p.mb-0 Para lograrlo, se analizan aspectos como la organización de la información, la jerarquía de contenidos y los sistemas de navegación. Estos elementos permiten estructurar la aplicación de manera lógica, asegurando que los usuarios comprendan dónde se encuentran dentro del sitio y cómo pueden desplazarse hacia otras secciones.
       .col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/tema1/img01.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema1/img01.jpg', alt='')
     .row.justify-content-center.mb-0
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema1/img02.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema1/img02.svg', alt='')
       .col.col-lg-7.col-12.order-lg-2.order-2
         .cajon.cajon.C02.color-secundario.px-4.py-3.mb-4
           p.mb-0(data-aos="fade-down") La arquitectura de la información también se relaciona con el diseño centrado en el usuario, ya que busca adaptar la estructura del contenido a las necesidades, expectativas y comportamientos de quienes utilizan la aplicación. Por esta razón, antes de diseñar interfaces o desarrollar funcionalidades, es fundamental definir cómo se organizará la información dentro del sistema.
@@ -30,7 +30,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema1/img03.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema1/img03.jpg', alt='')
       .col.col-lg-6.col-12.order-lg-1.order-2
         p.mb-3(data-aos="fade-down") Una adecuada organización no solo facilita la navegación de los usuarios, sino que también contribuye a mejorar la usabilidad del sistema, optimizar el acceso a los contenidos y apoyar el cumplimiento de los objetivos de la aplicación.
         .cajon.cajon.C02.color-secundario.px-4.py-2.mb-0
@@ -38,7 +38,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-auto.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema1/img04.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema1/img04.svg', alt='')
       .col-lg-9.col-12
         .cajon.cajon.C04.px-4.py-2.mb-0
           p.mb-0 La organización de la información corresponde al proceso de clasificar, estructurar y presentar los contenidos de una aplicación <em>web</em> de manera clara y comprensible, con el fin de que los usuarios puedan localizar fácilmente la información que necesitan.
@@ -73,34 +73,34 @@
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img08.png')})`}")
               .tarjeta-slide__contenido.p-auto.p-xl-5
                 h4 Búsqueda
-                p.mb-0 
+                p.mb-0 Permite localizar contenidos específicos dentro de la aplicación a través de herramientas de búsqueda internas, lo que facilita el acceso rápido a la información cuando el volumen de contenidos es amplio.
     .movil.mb-0
       .row.justify-content-center.align-items-center.mb-5
         .col-md-10.col-12
           .tarjeta.tarjeta--C05.p-4
             figure.mb-3
-              img(src='@/assets/curso/tema1/img09.png', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema1/img09.png', alt='')
             h4 Estructura
             p.mb-0 Define la forma en que se organizan los contenidos dentro de la aplicación. Puede adoptar distintos modelos, como estructuras jerárquicas, secuenciales o en red, dependiendo de la naturaleza del sistema y de las necesidades del usuario.
       .row.justify-content-center.align-items-center.mb-5
         .col-md-10.col-12
           .tarjeta.tarjeta--C05.p-4
             figure.mb-3
-              img(src='@/assets/curso/tema1/img09.png', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema1/img09.png', alt='')
             h4 Navegación
             p.mb-0 Corresponde a los mecanismos que permiten al usuario desplazarse dentro de la aplicación, mediante menús, enlaces, botones o rutas de navegación que facilitan el acceso a las diferentes secciones.
       .row.justify-content-center.align-items-center.mb-5
         .col-md-10.col-12
           .tarjeta.tarjeta--C05.p-4
             figure.mb-3
-              img(src='@/assets/curso/tema1/img10.png', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema1/img10.png', alt='')
             h4 Etiquetado
             p.mb-0 Consiste en asignar nombres claros y comprensibles a las categorías, secciones o funcionalidades de la aplicación, de manera que los usuarios puedan interpretar fácilmente la información disponible.
       .row.justify-content-center.align-items-center.mb-5
         .col-md-10.col-12
           .tarjeta.tarjeta--C05.p-4
             figure.mb-3
-              img(src='@/assets/curso/tema1/img11.png', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema1/img11.png', alt='')
             h4 Búsqueda
             p.mb-0 Permite localizar contenidos específicos dentro de la aplicación a través de herramientas de búsqueda internas, lo que facilita el acceso rápido a la información cuando el volumen de contenidos es amplio.
     .row.BG01.justify-content-center.align-items-stretch.mb-4.px-4.py-4.mb-0
@@ -127,11 +127,11 @@
             p.mb-0(data-aos="fade-down") 
         .col.col-lg-4.col-8
           figure
-            img(src='@/assets/curso/tema1/img13.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/tema1/img13.svg', alt='')
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-auto.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema1/img14.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema1/img14.svg', alt='')
       .col-lg-9.col-12
         .cajon.cajon.C04.px-4.py-3.mb-0
           p.mb-0 Por ejemplo, en una aplicación de comercio electrónico, la organización de la información permite guiar al usuario durante el proceso de navegación y compra.
@@ -212,7 +212,7 @@
             p.mb-0(data-aos="fade-down") 
         .col.col-lg-4.col-8
           figure
-            img(src='@/assets/curso/tema1/img23.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/tema1/img23.svg', alt='')
     p.mb-4(data-aos="fade-down") Los sitios <em>web</em> pueden utilizar diferentes tipos de navegación dependiendo de la estructura del contenido y de los objetivos de la aplicación.
     .row.justify-content-center.mb-0
       .col.col-12
@@ -273,7 +273,7 @@
             .row.justify-content-center
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C05.p-0.h-100
-                  img.w-100.h-100.my-auto(src='@/assets/curso/tema1/img26.svg' alt="Imagen decorativa")
+                  img.w-100.h-100.my-auto(src='@/assets/curso/tema1/img26.svg' alt="")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
                 .cajon.cajon.C05.p-3.h-100.d-flex.align-items-center
                   h5.mb-0 Paso 1. 
@@ -282,7 +282,7 @@
             .row.justify-content-center
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C05.p-0.h-100
-                  img.w-100.h-100.my-auto(src='@/assets/curso/tema1/img27.svg' alt="Imagen decorativa")
+                  img.w-100.h-100.my-auto(src='@/assets/curso/tema1/img27.svg' alt="")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
                 .cajon.cajon.C05.p-3.h-100.d-flex.align-items-center
                   h5.mb-0 Paso 2. 
@@ -291,7 +291,7 @@
             .row.justify-content-center
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C05.p-0.h-100
-                  img.w-100.h-100.my-auto(src='@/assets/curso/tema1/img28.svg' alt="Imagen decorativa")
+                  img.w-100.h-100.my-auto(src='@/assets/curso/tema1/img28.svg' alt="")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
                 .cajon.cajon.C05.p-3.h-100.d-flex.align-items-center
                   h5.mb-0 Paso 3. 
@@ -313,7 +313,7 @@
             .row.justify-content-center
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C05.p-0.h-100
-                  img.w-100.h-100.my-auto(src='@/assets/curso/tema1/img26.svg' alt="Imagen decorativa")
+                  img.w-100.h-100.my-auto(src='@/assets/curso/tema1/img26.svg' alt="")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
                 .cajon.cajon.C05.p-3.h-100.d-flex.align-items-center
                   h5.mb-0 Inicio > Productos > Electrónica > Celulares
@@ -339,7 +339,7 @@
               p.mb-0 Barra de búsqueda.
       .col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/tema1/img29.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema1/img29.jpg', alt='')
     .row.justify-content-center.mb-4
       .col-lg-10.col-12
         p.mb-0.text-center(data-aos="fade-down") Para diseñar un sistema de navegación efectivo se recomienda:
@@ -377,7 +377,7 @@
               | Priorizar la experiencia del usuario.
       .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure.mb-0
-          img(src='@/assets/curso/tema1/img30.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema1/img30.svg', alt='')
     p.mb-0(data-aos="fade-down") Un sistema de navegación mal diseñado puede generar desorientación, dificultar la localización de la información y provocar que los usuarios abandonen el sitio. Por esta razón, la planificación de la navegación constituye un aspecto fundamental en el diseño de aplicaciones <em>web</em>.
 </template>
 

@@ -11,7 +11,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-3.col-8.col-md-6.order-lg-1.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/intro/img01.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/intro/img01.svg', alt='')
       .col.col-lg-7.col-12.order-lg-2.order-2
         .cajon.cajon.C01.color-primario.px-4.py-3.mb-4
           p.mb-0(data-aos="fade-down") En el desarrollo de aplicaciones <em>web</em>, el diseño de la información cumple un papel fundamental, ya que permite definir cómo se organizan los contenidos, cómo se presentan y de qué forma interactúan los usuarios con el sistema. Para ello se emplean herramientas como <em>wireframe</em>s, retículas y <em>mockups</em>, que ayudan a planificar la estructura visual y la experiencia de uso antes de iniciar la construcción de la aplicación.

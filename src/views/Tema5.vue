@@ -30,7 +30,7 @@
     .row.justify-content-center.mb-0
       .col.col-lg-2.col-8.col-md-6.order-lg-1.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema5/img04.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema5/img04.svg', alt='')
       .col.col-lg-10.col-12.order-lg-2.order-2
         .cajon.cajon.C02.color-secundario.px-4.py-3.mb-4
           p.mb-0(data-aos="fade-down") En el entorno de aprendizaje Zajuna se puede presentar esta diferencia con claridad. La parte visible para el usuario corresponde al <em>frontend</em>, donde se presentan los contenidos, menús, botones y formularios. Por su parte, el <em>backend</em> corresponde al conjunto de códigos y procesos que funcionan en segundo plano y que permiten gestionar la información del sistema, incluyendo estructuras desarrolladas mediante HTML, CSS y JavaScript.
@@ -121,7 +121,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema5/img20.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema5/img20.jpg', alt='')
       .col.col-lg-6.col-12.order-lg-1.order-2
         .cajon.cajon.C01.color-primario.px-4.py-3.mb-2
           p.mb-0(data-aos="fade-down") En términos simples, los tipos de datos indican al programa qué tipo de información se está manejando y cómo debe interpretarla. Gracias a esta clasificación, los lenguajes de programación pueden procesar correctamente números, textos, valores lógicos u otras estructuras de información.
@@ -129,7 +129,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema5/img21.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema5/img21.jpg', alt='')
       .col.col-lg-6.col-12.order-lg-2.order-2
         p.mb-4(data-aos="fade-down") En el desarrollo <em>frontend</em>, especialmente con JavaScript, los tipos de datos permiten gestionar la información que se muestra en la interfaz, validar datos ingresados por el usuario y procesar la información recibida desde servicios o APIs.
         .cajon.cajon.C02.color-secundario.px-4.py-3.mb-0
@@ -161,7 +161,7 @@
               p.mb-0 La estabilidad y seguridad del <em>software</em>.
       .col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4
         figure.mb-0
-          img(src='@/assets/curso/tema5/img22.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema5/img22.svg', alt='')
     p(data-aos="fade-down") Comprender los tipos de datos constituye uno de los primeros pasos en el aprendizaje de la programación, ya que permite entender cómo los programas representan la información del mundo real mediante estructuras digitales.
     p.mb-4(data-aos="fade-down") Los tipos de datos pueden clasificarse en diferentes categorías según la forma en que almacenan la información.
     .row.justify-content-center.mb-0
@@ -245,43 +245,43 @@
           .row.align-items-center.BG02(data-aos="fade-down")
             .col-lg-4.d-none.d-lg-block.py-0.px-5
               figure(data-aos="zoom-in")
-                img(src="@/assets/curso/tema5/img23.png", alt="Imagen decorativa")
+                img(src="@/assets/curso/tema5/img23.png", alt="")
             .col-lg-8.p-5.py-4
               SlyderF.custom.color-acento-botones.px-4.py-0(columnas="col-lg-4 col-xl-4")
                 .tarjeta.tarjeta--slyder.px-3.py-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema5/img24.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema5/img24.svg", alt="").img100.m-auto
                   p <em><b>Number</b></em>: representa valores numéricos enteros o decimales.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema5/img25.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema5/img25.svg", alt="").img100.m-auto
                   p <em><b>String</b></em>: representa texto o cadenas de caracteres.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema5/img26.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema5/img26.svg", alt="").img100.m-auto
                   p <em><b>Boolean</b></em>: representa valores lógicos verdadero o falso.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema5/img27.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema5/img27.svg", alt="").img100.m-auto
                   p <em><b>Object</b></em>: representa estructuras de datos complejas.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema5/img28.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema5/img28.svg", alt="").img100.m-auto
                   p <em><b>Array</b></em>: permite almacenar listas de elementos.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema5/img29.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema5/img29.svg", alt="").img100.m-auto
                   p <em><b>Null</b></em>: representa la ausencia intencional de valor.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema5/img30.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema5/img30.svg", alt="").img100.m-auto
                   p <em><b>Undefined</b></em>: indica que una variable no tiene valor asignado.
     p(data-aos="fade-down") En el desarrollo <em>frontend</em>, las aplicaciones <em>web</em> frecuentemente necesitan comunicarse con servidores o servicios externos para obtener o enviar información. Este proceso se conoce como consumo de servicios o consumo de APIs.
     p.mb-4(data-aos="fade-down") Las <b>funciones de consumo</b> permiten que una aplicación <em>web</em> solicite datos a un servidor, envíe información o actualice registros dentro de un sistema. Estas operaciones se realizan generalmente mediante protocolos <em>web</em> como HTTP.
@@ -329,10 +329,10 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema5/img32.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema5/img32.svg', alt='')
       .col.col-lg-7.col-12.order-lg-1.order-2
         .cajon.cajon.C02.color-secundario.px-4.py-3.mb-4
-          p.mb-0(data-aos="fade-down") Es importante diferenciar las librerías de otros elementos como los <em>Frameworks</em>. Mientras una librería se enfoca en resolver una tarea específica y puede integrarse de forma flexible dentro de un proyecto, un framework establece una estructura más completa para el desarrollo de la aplicación. Comprender esta diferencia permite seleccionar adecuadamente las herramientas según las necesidades del proyecto.
+          p.mb-0(data-aos="fade-down") Es importante diferenciar las librerías de otros elementos como los <em>Frameworks</em>. Mientras una librería se enfoca en resolver una tarea específica y puede integrarse de forma flexible dentro de un proyecto, un <em>framework</em> establece una estructura más completa para el desarrollo de la aplicación. Comprender esta diferencia permite seleccionar adecuadamente las herramientas según las necesidades del proyecto.
         p.mb-0(data-aos="fade-down") En el desarrollo <em>frontend</em> moderno existe una amplia variedad de librerías que facilitan diferentes tareas relacionadas con la interfaz, la gestión de datos, las animaciones o la comunicación con servicios externos.
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12.col-lg-10
@@ -489,11 +489,11 @@
     .row.justify-content-center.mb-0
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema5/img33.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema5/img33.svg', alt='')
       .col.col-lg-6.col-12.order-lg-1.order-2
         .cajon.cajon.C01.color-primario.px-4.py-4.mb-3
           p.mb-0(data-aos="fade-down") El uso de librerías en el desarrollo <em>frontend</em> constituye una práctica fundamental en la programación de soluciones de <em>software</em> modernas. Estas herramientas permiten reutilizar código, mejorar la productividad, mantener estándares de desarrollo y construir interfaces más robustas y funcionales.
-        p.mb-0(data-aos="fade-down") Desde una perspectiva educativa y profesional, comprender cómo seleccionar e integrar librerías <em>frontend</em> es una competencia clave para los desarrolladores. Su uso adecuado contribuye a la construcción de aplicaciones <em>web</em> eficientes, manteni  bles y alineadas con las necesidades de los usuarios y los estándares actuales del desarrollo <em>web</em>.
+        p.mb-0(data-aos="fade-down") Desde una perspectiva educativa y profesional, comprender cómo seleccionar e integrar librerías <em>frontend</em> es una competencia clave para los desarrolladores. Su uso adecuado contribuye a la construcción de aplicaciones <em>web</em> eficientes, mantenibles y alineadas con las necesidades de los usuarios y los estándares actuales del desarrollo <em>web</em>.
 </template>
 <script>
 export default {
@@ -525,7 +525,7 @@ export default {
       {
         titulo: '<em>Frameworks</em> y bibliotecas <em>frontend</em>',
         texto:
-          'En el desarrollo <em>web</em> moderno, las tecnologías <em>frontend</em> se complementan con el uso de <em>frameworks</em> y bibliotecas que facilitan la creación de interfaces complejas. Estas herramientas proporcionan estructuras, componentes reutilizables y funciones predefinidas que agilizan el desarrollo, mejoran la organización del código y permiten construir aplicaciones web más eficientes y escalables.',
+          'En el desarrollo <em>web</em> moderno, las tecnologías <em>frontend</em> se complementan con el uso de <em>frameworks</em> y bibliotecas que facilitan la creación de interfaces complejas. Estas herramientas proporcionan estructuras, componentes reutilizables y funciones predefinidas que agilizan el desarrollo, mejoran la organización del código y permiten construir aplicaciones <em>web</em> más eficientes y escalables.',
         imagen: require('@/assets/curso/tema5/img08.jpg'),
       },
     ],

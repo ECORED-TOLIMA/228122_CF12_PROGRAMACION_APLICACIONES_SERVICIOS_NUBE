@@ -18,7 +18,7 @@
     .row.justify-content-center.mb-0
       .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema4/img02.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema4/img02.svg', alt='')
       .col.col-lg-7.col-12.order-lg-1.order-2
         .cajon.cajon.C02.color-secundario.px-4.py-3.mb-4
           p.mb-0(data-aos="fade-down") Desde el desarrollo de <em>software</em>, la maquetación funciona como una etapa intermedia entre el diseño de la interfaz y la programación de la lógica de la aplicación. Aunque no gestiona directamente la funcionalidad del sistema, sí determina cómo se presentan los contenidos, cómo se organizan los componentes y cómo interactúa el usuario con la información.
@@ -29,7 +29,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema4/img03.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema4/img03.jpg', alt='')
       .col.col-lg-8.col-12.order-lg-2.order-2
         p.mb-4(data-aos="fade-down") HTML es un lenguaje de marcado diseñado para describir la estructura de los documentos que se publican en la <em>web</em>. Su función principal es organizar el contenido de una página, indicando qué partes corresponden a títulos, párrafos, enlaces, imágenes, listas, formularios u otros elementos.
         .cajon.cajon.C01.color-primario.px-4.py-2.mb-4
@@ -37,7 +37,7 @@
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-3.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/tema4/img04.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema4/img04.svg', alt='')
           .col-lg-9.col-12
             .cajon.cajon.C02.px-4.py-2.mb-0
               p.mb-0 HTML funciona mediante un sistema de etiquetas que rodean el contenido y le asignan un significado específico. Este enfoque permite separar el contenido de su presentación visual y de su comportamiento, facilitando el mantenimiento, la escalabilidad y la interoperabilidad del <em>software</em>.
@@ -48,33 +48,33 @@
           .row.align-items-center.BG02(data-aos="fade-down")
             .col-lg-4.d-none.d-lg-block.py-0.px-3
               figure(data-aos="zoom-in")
-                img(src="@/assets/curso/tema4/img05.png", alt="Imagen decorativa")
+                img(src="@/assets/curso/tema4/img05.png", alt="")
             .col-lg-8.p-5.py-4
               SlyderF.custom.color-acento-botones.px-4.py-0(columnas="col-lg-6 col-xl-6")
                 .tarjeta.tarjeta--slyder.px-3.py-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema4/img06.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema4/img06.svg", alt="").img100.m-auto
                   p HTML significa Lenguaje de Marcado de Hipertexto.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema4/img07.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema4/img07.svg", alt="").img100.m-auto
                   p Es el lenguaje de marcado estándar para crear páginas <em>web</em>.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema4/img08.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema4/img08.svg", alt="").img100.m-auto
                   p Define la estructura de una página <em>web</em>.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema4/img09.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema4/img09.svg", alt="").img100.m-auto
                   p Los elementos HTML indican al navegador cómo mostrar el contenido visualmente.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema4/img10.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema4/img10.svg", alt="").img100.m-auto
                   p Las etiquetas HTML permiten identificar fragmentos de contenido como encabezados, párrafos, enlaces, imágenes u otros componentes de la página.
     .row.justify-content-center.mb-0
       .col.col-12
@@ -267,10 +267,10 @@
             li.mb-0
               .lista-ol--cuadro__vineta
                 span.text-bold 4
-              | Abrir el archivo guardado en cualquier navegador <em>web</em> para visualizar la página generada.
+              p.mb-0 Abrir el archivo guardado en cualquier navegador <em>web</em> para visualizar la página generada.
       .col-lg-2.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/tema4/img13.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema4/img13.svg', alt='')
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -290,7 +290,7 @@
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema4/img16.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema4/img16.jpg', alt='')
       .col.col-lg-8.col-12.order-lg-1.order-2
         .cajon.cajon.C01.color-primario.px-4.py-3.mb-4
           p.mb-0(data-aos="fade-down") Las hojas de estilo en cascada, conocidas como CSS (Cascading Style Sheets), son un lenguaje de diseño utilizado para describir la presentación de documentos escritos en HTML. Su función principal consiste en definir cómo deben mostrarse los distintos elementos estructurales de una página <em>web</em>, sin modificar el contenido en sí.
@@ -305,7 +305,7 @@
               li.mb-2
                 .lista-ol--cuadro__vineta
                   span.text-bold 1
-                | Atributo <em>style</em>: permite aplicar estilos directamente dentro de una etiqueta HTML, lo que se conoce como estilo en línea.
+                p.mb-0 Atributo <em>style</em>: permite aplicar estilos directamente dentro de una etiqueta HTML, lo que se conoce como estilo en línea.
               li.mb-2
                 .lista-ol--cuadro__vineta
                   span.text-bold 2
@@ -325,38 +325,38 @@
           .row.align-items-center.BG02(data-aos="fade-down")
             .col-lg-4.d-none.d-lg-block.py-0.px-3
               figure(data-aos="zoom-in")
-                img(src="@/assets/curso/tema4/img17.png", alt="Imagen decorativa")
+                img(src="@/assets/curso/tema4/img17.png", alt="")
             .col-lg-8.p-5.py-4
               SlyderF.custom.color-acento-botones.px-4.py-0(columnas="col-lg-4 col-xl-4")
                 .tarjeta.tarjeta--slyder.px-3.py-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema4/img18.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema4/img18.svg", alt="").img100.m-auto
                   p color: define el color del texto.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema4/img19.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema4/img19.svg", alt="").img100.m-auto
                   p <em>font-family</em>: establece la fuente tipográfica del texto.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema4/img20.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema4/img20.svg", alt="").img100.m-auto
                   p <em>font-size</em>: determina el tamaño del texto.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema4/img21.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema4/img21.svg", alt="").img100.m-auto
                   p <em>border</em>: define los bordes de un elemento.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema4/img22.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema4/img22.svg", alt="").img100.m-auto
                   p <em>padding</em>: controla el espacio interno entre el contenido y el borde del elemento.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema4/img23.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema4/img23.svg", alt="").img100.m-auto
                   p <em>margin</em>: controla el espacio externo entre un elemento y otros elementos de la página.
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-12
@@ -582,12 +582,12 @@
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema4/img26.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema4/img26.jpg', alt='')
       .col.col-lg-7.col-12.order-lg-1.order-2
         .row.justify-content-center.mb-0
           .col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/tema4/img27.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema4/img27.svg', alt='')
           .col-lg-10.col-12
             p.mb-3 La incorporación de CSS mediante la etiqueta &lt;style&gt; permite mejorar la apariencia visual del sitio <em>web</em> mediante propiedades como color, tipografía, márgenes, bordes y espaciados. Esto contribuye a crear interfaces más atractivas, organizadas y fáciles de usar.
         .cajon.cajon.C01.px-4.py-3.mb-0
@@ -611,12 +611,12 @@
     .row.justify-content-center.mb-0
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/tema4/img28.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema4/img28.jpg', alt='')
       .col.col-lg-8.col-12.order-lg-2.order-2
         .row.justify-content-center.mb-3
           .col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/tema4/img29.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema4/img29.svg', alt='')
           .col-lg-10.col-12
             p.mb-3 Los estilos en la <em>web</em> se refieren al conjunto de características visuales que determinan la apariencia de una página o aplicación. Estos estilos son implementados principalmente mediante CSS (Cascading Style Sheets), el cual permite definir colores, tipografías, tamaños, espacios, alineaciones y otros aspectos visuales de la interfaz.
         .cajon.cajon.C01.color-primario.px-4.py-3.mb-3
@@ -644,7 +644,7 @@
                 p.mb-0 Favorecen la adaptación del contenido a diferentes dispositivos y tamaños de pantalla.
         .col.col-lg-3.col-8
           figure
-            img(src='@/assets/curso/tema4/img30.svg', alt='Imagen decorativa')
+            img(src='@/assets/curso/tema4/img30.svg', alt='')
     p.mb-4(data-aos="fade-down") Existen diferentes formas de aplicar estilos en una página <em>web</em>, dependiendo de las necesidades del proyecto y de la organización del código.
     AcordionA.mb-4(tipo="a" clase-tarjeta="tarjeta tarjeta--C03" data-aos="zoom-in")
       .row.justify-content-center(titulo="a) Estilos en línea (<em>Inline</em> CSS)")
@@ -667,7 +667,7 @@
                     | &lt;/html&gt;
             .col.col-lg-2.col-4.order-lg-1.order-1
               figure
-                img(src='@/assets/curso/tema4/img31.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/tema4/img31.svg', alt='')
       .row.justify-content-center(titulo="b) Estilos internos (<em>Internal</em> CSS)")
         .col-12.col-lg-12.order-lg-1.order-2
           p Se definen dentro del mismo archivo HTML, utilizando la etiqueta style ubicada en la sección <em>head</em> del documento. Esta forma se utiliza cuando los estilos solo serán aplicados a una página específica.
@@ -695,7 +695,7 @@
                     | &lt;/html&gt;
             .col.col-lg-2.col-4.order-lg-1.order-1
               figure
-                img(src='@/assets/curso/tema4/img32.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/tema4/img32.svg', alt='')
       .row.justify-content-center(titulo="c) Estilos externos (<em>External</em> CSS)")
         .col-12.col-lg-12.order-lg-1.order-2
           p Se escriben en un archivo independiente con extensión .css y posteriormente se enlazan al documento HTML mediante la etiqueta <em>link</em>. Esta es la forma más recomendada en el desarrollo profesional, ya que permite reutilizar estilos en múltiples páginas y facilita el mantenimiento del código.
@@ -721,7 +721,7 @@
                     | &lt;/html&gt;
             .col.col-lg-2.col-4.order-lg-1.order-1
               figure
-                img(src='@/assets/curso/tema4/img33.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/tema4/img33.svg', alt='')
     p.mb-4(data-aos="fade-down") Con el fin de sintetizar las diferentes formas de aplicar estilos, a continuación, se presenta una comparación entre las principales formas de aplicar CSS en una página <em>web</em>.
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12.col-lg-10
@@ -761,7 +761,7 @@
             p.mb-0 Los estilos y las guías de estilo son elementos fundamentales en la presentación <em>web</em>. Su correcta aplicación permite crear interfaces claras, atractivas y funcionales, mejorando la experiencia del usuario y facilitando el desarrollo y mantenimiento de aplicaciones <em>web</em>.
           .col-lg-3.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
             figure
-              img(src='@/assets/curso/tema4/img34.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema4/img34.svg', alt='')
 </template>
 <script>
 export default {
